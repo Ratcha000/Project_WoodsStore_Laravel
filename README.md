@@ -1,3 +1,61 @@
+#  ระบบ POS ร้านขายไม้ (Laravel)
+**Wood Store POS System**
+
+## รายละเอียดโปรเจกต์
+โปรเจกต์นี้เป็นส่วนหนึ่งของรายวิชาระดับมหาวิทยาลัย  
+มีวัตถุประสงค์เพื่อออกแบบและพัฒนาระบบ **Point of Sale (POS)**  
+สำหรับร้านขายไม้ โดยใช้ Laravel Framework
+
+ระบบถูกออกแบบมาเพื่อจำลองการทำงานจริงของร้านค้า  
+ตั้งแต่การจัดการข้อมูลสินค้า การขาย ไปจนถึงการจัดการฐานข้อมูล  
+เพื่อประยุกต์ใช้ความรู้ด้าน **Database System และ Web Application Development**
+
+---
+
+##  วัตถุประสงค์ของระบบ
+- ฝึกการออกแบบฐานข้อมูลเชิงสัมพันธ์ (Relational Database)
+- พัฒนาระบบ CRUD ด้วย Laravel
+- ประยุกต์ใช้แนวคิดฐานข้อมูลกับสถานการณ์ทางธุรกิจจริง
+- เรียนรู้โครงสร้าง MVC ของ Laravel
+
+---
+
+## เทคโนโลยีที่ใช้
+- Laravel Framework
+- PHP
+- MySQL
+- XAMPP
+- HTML / CSS / JavaScript
+- Git & GitHub
+
+---
+
+##  ความสามารถของระบบ (Features)
+- จัดการข้อมูลสินค้าไม้ (เพิ่ม / แก้ไข / ลบ / แสดง)
+- จัดการข้อมูลประเภทไม้
+- ระบบขายสินค้า (POS)
+- บันทึกข้อมูลการขาย
+- เชื่อมต่อและจัดการฐานข้อมูลด้วย MySQL
+
+---
+
+## วิธีการติดตั้งและใช้งาน
+1. Clone repository นี้
+2. ติดตั้ง dependencies ด้วย `composer install`
+3. สร้างไฟล์ `.env`
+4. ตั้งค่าการเชื่อมต่อฐานข้อมูล
+5. รันคำสั่ง `php artisan migrate`
+6. รันโปรเจกต์ด้วย `php artisan serve`
+
+---
+
+## ผู้จัดทำ
+- ชื่อ: นาย รัชช กันเทพา
+- สาขา: Computer Science
+- มหาวิทยาลัยขอนแก่น
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
